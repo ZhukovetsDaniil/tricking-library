@@ -14,3 +14,9 @@ jobs:
 
         - name: List Files
           run: ls -a
+
+        - name: Check dotnet
+          run: dotnet
+
+        - name: Check npm
+          run: npm
