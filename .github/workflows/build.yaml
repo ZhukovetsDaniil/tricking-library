@@ -15,8 +15,11 @@ jobs:
         - name: List Files
           run: ls -a
 
-        - name: Check dotnet
-          run: dotnet
+        - name: Build solution
+          run: dotnet build
+
+        - name: Show solution items
+          run: ls .\TrickingLibrary.Api -R
 
         - name: Check npm
-          run: npm
+          run: npm -v
