@@ -5,8 +5,9 @@ on: push
 jobs:
     build:
         runs-on: ubuntu-latest
-steps:
+        steps:
         - name: Print current directory
-        run: pwd
+          run: pwd
+
         - name: List Files
-        run: ls -a
+          run: ls -a
