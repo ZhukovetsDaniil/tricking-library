@@ -19,7 +19,7 @@ jobs:
           run: dotnet build
 
         - name: Show solution items
-          run: ls .\TrickingLibrary.Api -R
+          run: ls TrickingLibrary.Api -R
 
         - name: Check npm
           run: npm -v
